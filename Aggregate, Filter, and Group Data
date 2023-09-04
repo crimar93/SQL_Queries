@@ -1,0 +1,10 @@
+This query includes examples of aggregating data (rental_rate, rental_duration), filtering it (by rating), and grouping the results (also by rating). This query also demonstrates using aliases to improve readability of the query results.
+
+SELECT
+  COUNT(title) AS count_of_movies,
+  AVG(rental_rate) AS average_movie_rental_rate,
+  MIN(rental_duration) AS minimum_rental_duration,
+  MAX(rental_duration) AS maximum_rental_duration
+FROM film
+WHERE rating = 'PG' OR rating = 'G'
+GROUP BY rating
