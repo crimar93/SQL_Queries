@@ -1,0 +1,8 @@
+** The purpose of this query was to determine the average rental rate and minimum and maximum rental durations of Rockbuster Stealth LLC movies, then group them by rating.**
+
+SELECT rating,
+  AVG(rental_rate),
+  MIN(rental_duration),
+  MAX(rental_duration)
+FROM film
+GROUP BY rating
