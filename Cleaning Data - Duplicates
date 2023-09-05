@@ -1,0 +1,16 @@
+This query demonstrates searching a table for duplicate values that may need to be addressed to clean the data.
+
+
+--Shows only those records that are duplicates (based on columns selected)
+
+SELECT title,
+  release_year,
+  language_id,
+  rental_duration,
+  COUNT(*)
+FROM film
+GROUP BY title,
+  release_year,
+  language_id,
+  rental_duration
+HAVING COUNT (*) > 1;
