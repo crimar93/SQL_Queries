@@ -1,0 +1,9 @@
+Search for missing values to address as part of cleaning data.
+
+SELECT
+  title,
+  release_year,
+  language_id,
+  rental_duration
+FROM film
+WHERE rental_duration IS NULL
