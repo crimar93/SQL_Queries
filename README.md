@@ -29,4 +29,4 @@ The data set for this project was provided in the Project Brief by Rockbuster St
 - Film
 
 # Analysis Results
-[Click hear] (https://public.tableau.com/app/profile/caroline.rimar/viz/RimarTask3_10/PerCountry) to view the Tableau visualizations created for this project.
+[Click hear](https://public.tableau.com/app/profile/caroline.rimar/viz/RimarTask3_10/PerCountry) to view the Tableau visualizations created for this project.
